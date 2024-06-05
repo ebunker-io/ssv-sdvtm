@@ -11,7 +11,7 @@ scrape_configs:
         # if running prometheus from source, or as executable:
         # - <container_name>:15000 (i.e.: ssv_node:15000, check with docker ps command)
         # if running prometheus as docker container:
-        - host.docker.internal:15000
+        - host.docker.internal:15010
   - job_name: ssv_health
     metrics_path: /health
     static_configs:
@@ -20,5 +20,5 @@ scrape_configs:
         # if running prometheus from source, or as executable:
         # - <container_name>:15000 (i.e.: ssv_node:15000, check with docker ps command)
         # if running prometheus as docker container:
-        - host.docker.internal:15000
+        - host.docker.internal:15010
 
