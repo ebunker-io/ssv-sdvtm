@@ -7287,8 +7287,8 @@
       {
         "current": {
           "selected": false,
-          "text": "ssv-node",
-          "value": "ssv-node"
+          "text": "host.docker.internal",
+          "value": "host.docker.internal"
         },
         "hide": 1,
         "includeAll": false,
@@ -7297,11 +7297,11 @@
         "options": [
           {
             "selected": false,
-            "text": "ssv-node",
-            "value": "ssv-node"
+            "text": "host.docker.internal",
+            "value": "host.docker.internal"
           }
         ],
-        "query": "ssv-node",
+        "query": "host.docker.internal",
         "queryValue": "",
         "skipUrlSync": false,
         "type": "custom"

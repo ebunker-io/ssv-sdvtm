@@ -2719,8 +2719,8 @@
       {
         "current": {
           "selected": false,
-          "text": "ssv-node:15000",
-          "value": "ssv-node:15000"
+          "text": "host.docker.internal:15010",
+          "value": "host.docker.internal:15010"
         },
         "description": "",
         "hide": 1,
@@ -2730,11 +2730,11 @@
         "options": [
           {
             "selected": false,
-            "text": "ssv-node:15000",
-            "value": "ssv-node:15000"
+            "text": "host.docker.internal:15010",
+            "value": "host.docker.internal:15010"
           }
         ],
-        "query": "ssv-node:15000",
+        "query": "host.docker.internal:15010",
         "queryValue": "",
         "skipUrlSync": false,
         "type": "custom"
